@@ -18,8 +18,8 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/google/swift-benchmark", from: "0.1.0"),
-    .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-clocks", from: "1.0.0"),
+    .package(url: "https://github.com/ovcovc/combine-schedulers", .branch("fix")),
+    .package(url: "https://github.com/ovcovc/swift-clocks", .branch("fix")),
     .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", from: "1.0.0"),
     .package(url: "https://github.com/ovcovc/swift-issue-reporting", .branch("release/1_5_2"))
   ],
