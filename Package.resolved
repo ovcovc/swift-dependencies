@@ -64,6 +64,15 @@
       }
     },
     {
+      "identity" : "swift-issue-reporting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ovcovc/swift-issue-reporting",
+      "state" : {
+        "branch" : "release/1_5_2",
+        "revision" : "fbbadf0ef8938b5a8d77ddefd6edd369665f2e07"
+      }
+    },
+    {
       "identity" : "xctest-dynamic-overlay",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
